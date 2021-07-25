@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+img {
+    border-radius: 45%;
+}
+
+div{
+    justify-content: space-evenly;
+}

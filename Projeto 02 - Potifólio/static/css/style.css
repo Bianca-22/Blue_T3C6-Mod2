@@ -1,0 +1,125 @@
+body{
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(25, 22, 26);
+    color: white;
+    font-family: moonrising;
+}
+
+body#send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+@font-face{
+    font-family: "moonrising";
+    src: url(../css/moonrising/Moonrising.ttf);
+}
+
+img#eu{
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+section#sobre div{
+    padding: 2rem;
+}
+
+section#projetos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+section#projetos div{
+    padding: 2rem;
+    margin: 0 1rem 0 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section#formulario{
+    padding: 3rem 10rem 3rem 10rem;
+    display: grid;
+    place-items: center;
+}
+
+section#formulario form{
+    width: 50%;
+}
+
+section#formulario form input,
+textarea{
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+section#formulario form label{
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+section#sucesso{
+    justify-content: center;
+    padding: 3rem;
+    text-align: center;
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section#formulario form button {
+    border: 1px solid #ffffff;
+    background-color: rgb(25, 22, 26);
+    color: #6958ff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    width: 40%;
+}
+
+section#formulario form button:disabled {
+    border: 1px solid rgb(170, 170, 170);
+    background-color: rgb(65, 65, 65);
+    color: rgb(170, 170, 170);
+}
+
+a:link{
+    text-decoration:none;
+    color:rgb(225, 238, 42);
+}
+
+a:visited{
+text-decoration:none;
+color:rgb(42, 45, 241);
+}
+
+a:hover{
+text-decoration:none;
+color:rgb(238, 31, 66);
+}
+
+a:active{
+text-decoration:none;
+color:rgb(3, 165, 3);
+}
