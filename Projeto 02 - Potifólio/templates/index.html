@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Imagem/jpg" href="../static/img/eu_icon.jpg">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <section id="sobre">
+        <img  id="eu" src="../static/img/IMG_20210102_224041_962.jpg" width="320px">
+        <div>
+            <h1>Sobre mim:</h1>
+            <p>
+                Hey guys, meu nome é Bianca Monteiro e tenho 20 anos, moro no Rio de Janeiro/RJ. Eu sou uma pessoa que gosta de aprender coisas novas e sempre dou o melhor nos meus trabalhos. 
+                Eu ja fiz muitos cursos e nunca tive certeza do que eu realmente queria fazer, mas depois que comecei a estudar programação, achei super legal fazer todos os projetos e 
+                então escolhi que iria continuar nessa área de programação.
+            </p>
+        </div>
+    </section>
+
+    <div>
+        <h1>Projetos</h1>
+        <p>Todos os projetos foram feitos na linguagem Python para rodar no terminal.</p>
+    </div>
+
+    <section id="projetos">
+
+        <div>
+            <img src="../static/img/jogo_jokenpo.png" width="200px" height="250px">
+            <p>
+                Um dos projetos que eu gostei muito de fazer foi o jogo do Jokenpô, eu sempre gostei muito desse jogo e poder fazer o código de 
+                jogo foi bem divertido e muito legal.<br>Clique <a href="https://github.com/Bianca-22/Blue_T3C6-mod1/blob/main/Projeto%2002%20%E2%80%93%20Jogo%20Jokenp%C3%B4.py" target="_blank">aqui</a> 
+                para ser direcionado ao meu repositório no github onde está o código do jogo.
+            </p>
+        </div>
+
+        <div>
+            <img src="../static/img/jogo_eleicao.png" width="200px" height="250px">
+            <p>
+                Fiz também um projeto de um jogo de eleição, para ver a quantidade de votos e quem seria o vencedor da eleição. Foi um trabalho muito 
+                interessante de fazer e eu também gostei bastante dele.<br>Clique <a href="https://github.com/Bianca-22/Blue_T3C6-mod1/blob/main/Projeto%2004%20%E2%80%93%20Jogo%20Elei%C3%A7%C3%A3o.py" target="_blank">aqui</a> 
+                para ser direcionado ao meu repositório no github onde está o código do jogo.
+            </p>
+        </div>
+
+        <div>
+            <img src="../static/img/jogo_ficcao_interativa.png" width="200px" height="250px">
+            <p>
+                Outro projeto que eu fiz foi um jogo de ficção interativa que fiz com meus colegas de classe, com essa jogo aprendi muitas coisas 
+                e foi divertidíssimo poder criar esse jogo com outras pessoas.<br>Clique <a href="https://github.com/Bianca-22/blue_projetofinal" target="_blank">aqui</a> 
+                para ser direcionado ao repositório no github, que fiz com meus colegas, onde está o código do jogo.
+            </p>
+        </div>
+    </section>
+
+    <div id="redes">
+        <h3>Se conecte comigo </h3>
+        <a href="https://www.linkedin.com/in/bianca-monteiro-9b6a5b170/" target="_blank"><img src="../static/img/linkedin.png" width="80px"></a>
+
+        <a href="https://github.com/Bianca-22" target="_blank"><img src="../static/img/github.png" width="72px"></a>
+     </div>
+
+    <section id="formulario">
+        <form action="/send" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu endereço de e-mail">
+
+            <label for="mensagem">Mande sua mensagem:</label>
+            <textarea name="mensagem" cols="30" rows="10" id="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
+
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+    </section>
+
+    <script src='../static/js/script.js'></script>
+
+</body>
+</html>
